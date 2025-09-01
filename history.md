@@ -13,4 +13,5 @@ As seguintes etapas foram concluídas:
 * **Configuração de Autenticação (SSH):** Foi gerada e configurada uma chave SSH no notebook G15, conectando-o de forma segura à minha conta do GitHub. Isso permite interações com repositórios privados sem a necessidade de senhas.
 * **Teste de Conexão:** A conexão SSH foi testada com sucesso, validando que o G15 está totalmente autorizado a se comunicar com o GitHub.
 Com essa estrutura, agora posso programar em qualquer um dos computadores e manter meu progresso sempre centralizado e versionado. Este é o ponto de partida oficial para organizar e documentar minha evolução.
+* **G15 configured:** O Note agora está conversando com o pcGamer... Ok, 20250831 - 23:17
 
