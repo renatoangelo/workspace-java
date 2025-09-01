@@ -26,7 +26,7 @@ Para manter tudo organizado, o repositório segue a seguinte estrutura de pastas
 
 Aqui estão alguns dos principais tópicos que pretendo explorar e documentar neste repositório:
 
-- [ ] Sintaxe Básica e Estruturas de Controle
+- [X] Sintaxe Básica e Estruturas de Controle
 - [ ] Programação Orientada a Objetos (POO)
 - [ ] Collections Framework (List, Set, Map)
 - [ ] Tratamento de Exceções
