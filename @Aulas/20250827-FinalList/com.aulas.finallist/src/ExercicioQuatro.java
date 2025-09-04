@@ -1,8 +1,7 @@
 import quatroAgrupamento.Item;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ExercicioQuatro {
     public static void main(String[] args) {
@@ -25,5 +24,20 @@ public class ExercicioQuatro {
                 new Item("Base para Notebook", "Informatica")
 
                 );
+
+        Map<String, List<Item>> itensPorCategoria = itens.stream()
+                .collect(Collectors.groupingBy(
+                        Item::getCategoria,
+                        LinkedHashMap::new,
+                        Collectors.toList()
+                ));
+
+        itensPorCategoria.forEach((categoria, lista) -> {
+            System.out.println("Categoria: " + categoria);
+            lista.forEach(i -> System.out.println(" - " + i.getNome()));
+        });
+
+
+
     }
 }
